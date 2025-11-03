@@ -10,10 +10,11 @@ Repositório com frontend e backend do projeto ClickBeard.
 
 ## Estrutura do projeto
 ClickBeard/
-├─ backend/             # API do backend (Next.js + Prisma)
-├─ clickbeard-frontend/ # Frontend (Next.js)
-├─ docker-compose.yml   # Configuração do Docker (Postgres)
-├─ README.md
+- backend/             # API do backend (Next.js + Prisma)
+- clickbeard-frontend/ # Frontend (Next.js)
+- Diagrama.png         # Diagrama (Banco de Dados)
+- docker-compose.yml   # Configuração do Docker (Postgres)
+- README.md
 
 ## Passo a passo para rodar o projeto
 
@@ -64,21 +65,22 @@ ClickBeard/
 
     Exemplos para agilizar:
 
-    Nome do serviço: Corte Clássico
-    Descrição: Corte de cabelo masculino tradicional, realizado com máquina e tesoura.
-    Valor: 20
+    - Nome do serviço: Corte Clássico
+    - Descrição: Corte de cabelo masculino tradicional, realizado com máquina e tesoura.
+    - Valor: 20
 
-    Nome do serviço: Corte Infantil
-    Descrição: Serviço de corte de cabelo dedicado a crianças.
-    Valor: 20
+    - Nome do serviço: Corte Infantil
+    - Descrição: Serviço de corte de cabelo dedicado a crianças.
+    - Valor: 20
 
-    Nome do serviço: Barba Simples
-    Descrição: Manutenção rápida da barba com máquina e tesoura, ideal para manter o comprimento e o formato já existentes.
-    Valor: 20
+    - Nome do serviço: Barba Simples
+    - Descrição: Manutenção rápida da barba com máquina e tesoura.
+    - Valor: 20
 
     Com o usuário administrador logado vá a página Nossos Barbeiros e cadastre quantos desejar para teste
 
     Após cadastrar os barbeiros já está disponível para testar o agendamento administrativo.
+
     Crie um usuário cliente para visualisar como visa a visão de cliente e os agendamentos.
 
 Caso queira ver as tabelas no prisma studio:
