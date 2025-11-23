@@ -265,11 +265,11 @@ const steps = [
 ];
 const BookingStepIndicator = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(5);
-    if ($[0] !== "339c01a85742fca29ca3435cf8e4c32e468fc1474a5fc77be81a42558cd95045") {
+    if ($[0] !== "015e22d0772b6f019db3d3015b5eecc543e89b3f255574ee7b2e647ed8dd2a32") {
         for(let $i = 0; $i < 5; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "339c01a85742fca29ca3435cf8e4c32e468fc1474a5fc77be81a42558cd95045";
+        $[0] = "015e22d0772b6f019db3d3015b5eecc543e89b3f255574ee7b2e647ed8dd2a32";
     }
     const { currentStep } = t0;
     let t1;
@@ -343,11 +343,11 @@ const BookingStepIndicator = (t0)=>{
 _c1 = BookingStepIndicator;
 const StepSpecialtySelection = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(25);
-    if ($[0] !== "339c01a85742fca29ca3435cf8e4c32e468fc1474a5fc77be81a42558cd95045") {
+    if ($[0] !== "015e22d0772b6f019db3d3015b5eecc543e89b3f255574ee7b2e647ed8dd2a32") {
         for(let $i = 0; $i < 25; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "339c01a85742fca29ca3435cf8e4c32e468fc1474a5fc77be81a42558cd95045";
+        $[0] = "015e22d0772b6f019db3d3015b5eecc543e89b3f255574ee7b2e647ed8dd2a32";
     }
     const { specialties, appointment, setAppointment, onNext } = t0;
     let t1;
@@ -568,11 +568,11 @@ const StepSpecialtySelection = (t0)=>{
 _c2 = StepSpecialtySelection;
 const StepBarberSelection = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(35);
-    if ($[0] !== "339c01a85742fca29ca3435cf8e4c32e468fc1474a5fc77be81a42558cd95045") {
+    if ($[0] !== "015e22d0772b6f019db3d3015b5eecc543e89b3f255574ee7b2e647ed8dd2a32") {
         for(let $i = 0; $i < 35; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "339c01a85742fca29ca3435cf8e4c32e468fc1474a5fc77be81a42558cd95045";
+        $[0] = "015e22d0772b6f019db3d3015b5eecc543e89b3f255574ee7b2e647ed8dd2a32";
     }
     const { barbers, specialties, appointment, setAppointment, onNext, onBack } = t0;
     let t1;
@@ -1009,7 +1009,7 @@ const StepDateTimeSelection = ({ appointment, setAppointment, onNext, onBack, is
                         children: "Voltar"
                     }, void 0, false, {
                         fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                        lineNumber: 579,
+                        lineNumber: 578,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1019,13 +1019,13 @@ const StepDateTimeSelection = ({ appointment, setAppointment, onNext, onBack, is
                         children: "Próximo: Revisar"
                     }, void 0, false, {
                         fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                        lineNumber: 582,
+                        lineNumber: 581,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                lineNumber: 578,
+                lineNumber: 577,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -1089,7 +1089,7 @@ const StepConfirmation = ({ barbers, specialties, appointment, onBack })=>{
                     className: "w-16 h-16 text-green-500 mx-auto mb-4"
                 }, void 0, false, {
                     fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                    lineNumber: 651,
+                    lineNumber: 650,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1097,7 +1097,7 @@ const StepConfirmation = ({ barbers, specialties, appointment, onBack })=>{
                     children: "Agendamento Concluído!"
                 }, void 0, false, {
                     fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                    lineNumber: 652,
+                    lineNumber: 651,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1105,7 +1105,7 @@ const StepConfirmation = ({ barbers, specialties, appointment, onBack })=>{
                     children: "Seu horário foi reservado com sucesso. Obrigado por escolher a ClickBeard."
                 }, void 0, false, {
                     fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                    lineNumber: 653,
+                    lineNumber: 652,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1114,13 +1114,13 @@ const StepConfirmation = ({ barbers, specialties, appointment, onBack })=>{
                     children: "Voltar para a Home"
                 }, void 0, false, {
                     fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                    lineNumber: 654,
+                    lineNumber: 653,
                     columnNumber: 17
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-            lineNumber: 650,
+            lineNumber: 649,
             columnNumber: 12
         }, ("TURBOPACK compile-time value", void 0));
     }
@@ -1131,7 +1131,7 @@ const StepConfirmation = ({ barbers, specialties, appointment, onBack })=>{
                 children: "4. Revisão e Confirmação"
             }, void 0, false, {
                 fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                lineNumber: 660,
+                lineNumber: 659,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1143,7 +1143,7 @@ const StepConfirmation = ({ barbers, specialties, appointment, onBack })=>{
                         value: selectedSpecialties.map((s_1)=>s_1.name).join(', ') || 'N/A'
                     }, void 0, false, {
                         fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                        lineNumber: 663,
+                        lineNumber: 662,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(InfoItem, {
@@ -1152,7 +1152,7 @@ const StepConfirmation = ({ barbers, specialties, appointment, onBack })=>{
                         value: selectedBarber?.name || 'N/A'
                     }, void 0, false, {
                         fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                        lineNumber: 664,
+                        lineNumber: 663,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(InfoItem, {
@@ -1161,7 +1161,7 @@ const StepConfirmation = ({ barbers, specialties, appointment, onBack })=>{
                         value: `${formattedDate} às ${appointment.time || 'N/A'}`
                     }, void 0, false, {
                         fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                        lineNumber: 665,
+                        lineNumber: 664,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(InfoItem, {
@@ -1171,13 +1171,13 @@ const StepConfirmation = ({ barbers, specialties, appointment, onBack })=>{
                         isTotal: true
                     }, void 0, false, {
                         fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                        lineNumber: 666,
+                        lineNumber: 665,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                lineNumber: 662,
+                lineNumber: 661,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             submitError && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1185,7 +1185,7 @@ const StepConfirmation = ({ barbers, specialties, appointment, onBack })=>{
                 children: submitError
             }, void 0, false, {
                 fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                lineNumber: 669,
+                lineNumber: 668,
                 columnNumber: 29
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1198,7 +1198,7 @@ const StepConfirmation = ({ barbers, specialties, appointment, onBack })=>{
                         children: "Voltar"
                     }, void 0, false, {
                         fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                        lineNumber: 674,
+                        lineNumber: 673,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1211,7 +1211,7 @@ const StepConfirmation = ({ barbers, specialties, appointment, onBack })=>{
                                     className: "w-5 h-5 animate-spin"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                                    lineNumber: 679,
+                                    lineNumber: 678,
                                     columnNumber: 25
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 "Enviando..."
@@ -1219,19 +1219,19 @@ const StepConfirmation = ({ barbers, specialties, appointment, onBack })=>{
                         }, void 0, true) : 'Confirmar Agendamento'
                     }, void 0, false, {
                         fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                        lineNumber: 677,
+                        lineNumber: 676,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-                lineNumber: 673,
+                lineNumber: 672,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-        lineNumber: 659,
+        lineNumber: 658,
         columnNumber: 10
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -1243,11 +1243,11 @@ _s2(StepConfirmation, "0KiXrABLq8XSRVNevlyah1XOEe8=", false, function() {
 _c5 = StepConfirmation;
 const InfoItem = (t0)=>{
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$EstudosReact$2f$ClickBeard$2f$clickbeard$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(14);
-    if ($[0] !== "339c01a85742fca29ca3435cf8e4c32e468fc1474a5fc77be81a42558cd95045") {
+    if ($[0] !== "015e22d0772b6f019db3d3015b5eecc543e89b3f255574ee7b2e647ed8dd2a32") {
         for(let $i = 0; $i < 14; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "339c01a85742fca29ca3435cf8e4c32e468fc1474a5fc77be81a42558cd95045";
+        $[0] = "015e22d0772b6f019db3d3015b5eecc543e89b3f255574ee7b2e647ed8dd2a32";
     }
     const { icon: Icon, title, value, isTotal: t1 } = t0;
     const isTotal = t1 === undefined ? false : t1;
@@ -1259,7 +1259,7 @@ const InfoItem = (t0)=>{
             className: t3
         }, void 0, false, {
             fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-            lineNumber: 710,
+            lineNumber: 709,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[1] = Icon;
@@ -1278,7 +1278,7 @@ const InfoItem = (t0)=>{
             ]
         }, void 0, true, {
             fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-            lineNumber: 719,
+            lineNumber: 718,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[4] = title;
@@ -1294,7 +1294,7 @@ const InfoItem = (t0)=>{
             children: value
         }, void 0, false, {
             fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-            lineNumber: 728,
+            lineNumber: 727,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[6] = t6;
@@ -1314,7 +1314,7 @@ const InfoItem = (t0)=>{
             ]
         }, void 0, true, {
             fileName: "[project]/Documents/EstudosReact/ClickBeard/clickbeard-frontend/src/app/booking/page.tsx",
-            lineNumber: 737,
+            lineNumber: 736,
             columnNumber: 10
         }, ("TURBOPACK compile-time value", void 0));
         $[9] = t2;

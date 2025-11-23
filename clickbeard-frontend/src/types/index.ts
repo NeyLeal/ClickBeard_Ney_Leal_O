@@ -23,3 +23,22 @@ export interface AuthUser {
   role: 'ADMIN' | 'CLIENT';
 }
 
+export interface AppointmentDetails {
+    barberId: string | null;
+    specialtyIds: string[];
+    date: string | null;
+    time: string | null;
+}
+
+export interface AppointmentBase {
+    id: string;
+    name: string; 
+    email: string
+    startTime: string;
+    status: 'CONFIRMED' | 'COMPLETED' | 'CANCELLED';
+    specialty: Specialty;
+    barber: Barber;
+}
+
+
+

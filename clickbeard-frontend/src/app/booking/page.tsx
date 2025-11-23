@@ -7,14 +7,7 @@ import { Loader2, Calendar, User, ClipboardList, CheckCheck } from 'lucide-react
 import { AxiosError } from 'axios';
 import { useAuth } from '@/context/AuthContext';
 import api from '@/services/api';
-import { Barber, Specialty } from '@/types';
-
-interface AppointmentDetails {
-    barberId: string | null;
-    specialtyIds: string[];
-    date: string | null;
-    time: string | null;
-}
+import { Barber, Specialty, AppointmentDetails } from '@/types';
 
 const formatISODateToBR = (isoDate: string | null): string => {
     if (!isoDate) return 'N/A';
@@ -444,7 +437,6 @@ const StepDateTimeSelection: React.FC<StepDateTimeSelectionProps> = ({ appointme
     };
     
     const today = new Date().toISOString().split('T')[0];
-    const formattedDate = formatISODateToBR(appointment.date);
 
     return (
         <div>
@@ -504,8 +496,6 @@ const StepDateTimeSelection: React.FC<StepDateTimeSelectionProps> = ({ appointme
                     )}
                 </div>
             )}
-
-
             <div className="flex justify-between mt-8 border-t pt-4">
                 <button
                     onClick={onBack}

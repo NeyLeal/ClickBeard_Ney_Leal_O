@@ -7,12 +7,8 @@ import { BarberCard, CorrectedBarber } from '@/components/BarberCard/BarberCard'
 import { Loader2, PlusCircle, AlertTriangle, Trash2, Upload, ShieldCheck } from 'lucide-react';
 import { useAuth } from '@/context/AuthContext';
 import { AxiosError } from 'axios';
+import {Specialty} from '@/types'
 import Image from 'next/image';
-
-interface Specialty {
-    id: string;
-    name: string;
-}
 
 export type { CorrectedBarber };
 

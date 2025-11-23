@@ -8,32 +8,9 @@ import dayjs from 'dayjs';
 import 'dayjs/locale/pt-br';
 import { useAuth } from '../../context/AuthContext';
 import api from '../../services/api';
+import { AuthUser, AppointmentBase } from '@/types';
 
 dayjs.locale('pt-br');
-
-interface Specialty {
-    id: string;
-    name: string;
-    description?: string;
-}
-interface Barber {
-    id: string;
-    name: string;
-}
-interface AuthUser {
-    id: string;
-    name: string;
-    email: string;
-    role: 'ADMIN' | 'CLIENT';
-}
-
-interface AppointmentBase {
-    id: string;
-    startTime: string;
-    status: 'CONFIRMED' | 'COMPLETED' | 'CANCELLED';
-    specialty: Specialty;
-    barber: Barber;
-}
 
 type ClientAppointment = AppointmentBase
 
