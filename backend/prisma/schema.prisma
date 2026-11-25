@@ -1,0 +1,86 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Modelo de Cliente
+model User {
+  id           String        @id @default(uuid())
+  name         String
+  email        String        @unique
+  passwordHash String 
+  role         UserRole      @default(CLIENT)
+  appointments Appointment[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+enum UserRole {
+  CLIENT
+  ADMIN
+}
+
+// Modelo de Barbeiro
+model Barber {
+  id        String   @id @default(cuid())
+  name      String
+  age       Int
+  hireDate  DateTime
+  imageUrl  String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  specialties   BarberSpecialty[]
+  appointments Appointment[]
+}
+
+// Modelo de Especialidade
+model Specialty {
+  id          String            @id @default(uuid())
+  name        String            @unique
+  price       Float             @default(0)
+  description String?
+  barbers     BarberSpecialty[]
+  appointments Appointment[]
+}
+
+// Tabela para ligar Barbeiros e Especialidades
+model BarberSpecialty {
+  barberId    String
+  specialtyId String
+  barber      Barber    @relation(fields: [barberId], references: [id])
+  specialty   Specialty @relation(fields: [specialtyId], references: [id])
+
+  @@id([barberId, specialtyId])
+}
+
+// Modelo de Agendamento
+model Appointment {
+  id          String   @id @default(uuid())
+  date        DateTime
+  startTime   String
+  userId      String
+  barberId    String
+  specialtyId String
+  status       AppointmentStatus @default(CONFIRMED)
+
+  user        User      @relation(fields: [userId], references: [id])
+  barber      Barber    @relation(fields: [barberId], references: [id])
+  specialty   Specialty @relation(fields: [specialtyId], references: [id])
+
+  createdAt   DateTime  @default(now())
+
+  @@unique([barberId, startTime], name: "barberId_startTime") 
+}
+
+enum AppointmentStatus {
+  CONFIRMED
+  CANCELLED
+}
